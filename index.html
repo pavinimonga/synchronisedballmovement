@@ -5,6 +5,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
 <script src="./p5.play.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBIVmQ_et0t97qLUTfrOOCVtIf_7RhUkAU",
+    authDomain: "ballgame-5d1f4.firebaseapp.com",
+    databaseURL: "https://ballgame-5d1f4-default-rtdb.firebaseio.com",
+    projectId: "ballgame-5d1f4",
+    storageBucket: "ballgame-5d1f4.appspot.com",
+    messagingSenderId: "768035796919",
+    appId: "1:768035796919:web:1111b4431385a2e8c59a32"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
